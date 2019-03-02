@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*main*/
+
+#container{border-top: 1px solid #e30000;padding: 15px; padding-top: 22px;overflow: hidden;} 
+#container #main-wrap{margin-right: 13px; width: 726px;position: relative;float: left;}
+/* #container #main-01 ul{height: 455px;}
+#container #main-01 li{position: absolute;left: 0;top: 0;} */
+/* #container #main-01 #m1i1,#container #main-01 #m1i2,#container #main-01 #m1i3{display: none;}
+#container #main-01 #m1i1:target,#container #main-01 #m1i2:target,#container #main-01 #m1i3:target{display: block;} */
+#container #main-01-button {height: 496px;}
+#container #main-01-button ul{overflow: hidden;/* margin-left: 253px; */ position: relative;}
+#container #main-01-button ul li{width: 726px;height: 432px;}
+#container #main-01-button ul li.b1{background: url(../images/main/main-01-01.png) 7px 0 no-repeat;}
+#container #main-01-button button{width: 25px;height: 25px; border: none;background: none; border-radius: 50%;background-color: #898989;position: absolute; top: 455px; left: 253px;}
+#container #main-01-button .b2 button{top: 455px; left: 323px;}
+#container #main-01-button .b3 button{top: 455px; left: 393px;}
+
+#container #main-01-button button:active{background-color: pink;}
+#container #main-01-button ul li:first-child button{background-color: pink;}
+
+#container #main-02 {overflow: hidden; margin-bottom: 27px;}
+#container #main-02 h3 {border-top: 1px solid #6c6c6c; border-bottom: 1px solid #6c6c6c;padding-left: 275px; margin-bottom: 23px;}
+#container #main-02 h3 img{padding: 11px 0;}
+#container #main-02 li{float: left;margin-right: 23px;}
+#container #main-02 li:last-child{margin-right: 0px;}
+
+#container #main-03 {overflow: hidden;}
+#container #main-03 h3 {border-top: 1px solid #6c6c6c; border-bottom: 1px solid #6c6c6c;padding-left: 275px; margin-bottom: 20px;}
+#container #main-03 h3 img{padding: 11px 0;}
+#container #main-03 li{float: left;}
+
+#sub-wrap {float: right; margin-bottom: 24px;}
+#sub-02{margin-bottom: 22px;}
+#sub-wrap +p img {margin-bottom: 23px; position: relative; left: 0;}
+#last-wrap{overflow: hidden;/*  margin-bottom: 22px; */}
+#last-wrap h3{font-size: 23px; font-weight: bold; text-transform: uppercase;margin-bottom: 12px;}
+#last-wrap h3:before{content: "";display: inline-block; width: 70px; height: 10px; background: url(../images/main/more-plus.png) 0 0 repeat; margin-left:407px;}
+#last-wrap h3:after{content: "";display: inline-block; width: 80px; height: 10px; background: url(../images/main/more-plus-1.png) 0 0 repeat;}
+
+#last-wrap p{float: left;margin-right: 67px;}
+#last-wrap p:last-child{margin-right: 0px;}
+
